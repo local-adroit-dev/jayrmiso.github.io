@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunk_vue_cli_core"]=self["webpackChunk_vue_cli_core"]||[]).push([[838],{80838:function(t,e,n){n.r(e),n.d(e,{default:function(){return l}});var c=n(69943),o={type:"button"};function r(t,e){return(0,c.openBlock)(),(0,c.createElementBlock)("button",o,"Test Button 23")}var u=n(48118);const s={},f=(0,u.Z)(s,[["render",r]]);var l=f},48118:function(t,e){e.Z=(t,e)=>{const n=t.__vccOpts||t;for(const[c,o]of e)n[c]=o;return n}}}]);
+//# sourceMappingURL=838-legacy.ca40043e.js.map
