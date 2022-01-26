@@ -9,28 +9,6 @@ const DocMenuConfig = [
       },
     ],
   },
-  {
-    heading: "Micro Apps",
-    route: "/microapp",
-    pages: [
-      {
-        sectionTitle: "apps",
-        route: "/pages",
-        svgIcon: "media/icons/duotune/general/gen022.svg",
-        fontIcon: "bi-archive",
-        sub: [
-          {
-            heading: "Vue MicroApp",
-            route: "/microapp/vue",
-          },
-          {
-            heading: "React MicroApp",
-            route: "/microapp/react",
-          },
-        ],
-      },
-    ],
-  },
 ];
 
 export default DocMenuConfig;

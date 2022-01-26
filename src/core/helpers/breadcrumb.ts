@@ -21,6 +21,7 @@ export const setCurrentPageBreadcrumbs = (
  * @param {string} title Current page title name
  */
 export const setCurrentPageTitle = (title: string): void => {
+  console.log("gets calleeeeed");
   store.dispatch(Actions.SET_BREADCRUMB_ACTION, {
     title: title,
   });
