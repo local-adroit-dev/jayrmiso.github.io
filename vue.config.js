@@ -20,8 +20,8 @@ module.exports = {
       }),
     ],
   },
-  devServer: {
-    port: 8081,
-    historyApiFallback: true,
-  },
+  // devServer: {
+  //   port: 8081,
+  //   historyApiFallback: true,
+  // },
 };
