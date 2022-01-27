@@ -2,7 +2,7 @@ const ModuleFederationPlugin =
   require("webpack").container.ModuleFederationPlugin;
 
 module.exports = {
-  // publicPath: "https://nifty-spence-668cb6.netlify.app/",
+  publicPath: "https://nifty-spence-668cb6.netlify.app/",
   configureWebpack: {
     plugins: [
       new ModuleFederationPlugin({
