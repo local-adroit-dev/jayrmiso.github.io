@@ -2,7 +2,7 @@ const ModuleFederationPlugin =
   require("webpack").container.ModuleFederationPlugin;
 
 module.exports = {
-  publicPath: "http://localhost:8081/",
+  publicPath: "https://nifty-spence-668cb6.app.netlify.com/",
   configureWebpack: {
     plugins: [
       new ModuleFederationPlugin({
@@ -14,7 +14,7 @@ module.exports = {
         exposes: {
           "./Dropdown1": "./src/components/dropdown/Dropdown1.vue",
           "./Button": "./src/components/buttons/Button.vue",
-          "./VueMicroApp": "./src/views/pages/Dashboard/VueMicroApp.vue"
+          "./VueMicroApp": "./src/views/pages/Dashboard/VueMicroApp.vue",
         },
         shared: require("./package.json").dependencies,
       }),
